@@ -4,14 +4,13 @@ header{
 
 header#cabecalho{
     background-color: #B4CDCD;
-    padding: 30px;
+    padding: 10px;
     background-repeat: no-repeat;
 	max-width: 100%;
 	position: relative;
 }
 .texto_menu img{
 	float: left;
-	background-color: #B4CDCD;
     background-repeat: no-repeat;
 	position: relative;
 }
@@ -19,18 +18,18 @@ header#cabecalho{
 .texto_menu ul{
    list-style:none;
    font-family: arial;
-   margin-bottom: 20px;
+   margin-bottom: 10px;
    margin-top: 0;
 	
 }
 .texto_menu ul li {
   display: inline-block;
   margin-left: 10px;
-  margin-top: 50px;
+  margin-top: 45px;
 }
 .texto_menu ul li a {
    padding: 0px 0px;
-   margin-left: 50px;
+   margin-left: 70px;
    text-decoration:none;
    color: #191970;
 }
@@ -50,66 +49,62 @@ body{
 	max-width: 100%;
 	max-height: 100%;
     background-size: cover;
-}
-
-.direita{
-	background-color: #B4CDCD;
-	transform: translate(-50%,-50%);		
-	font-family: arial;
-	color: #191970;
-	padding:20px;  
-	width:20%;
-	text-align: center;
-	display: table;
-	position: relative;
-	top: 85%;
-	left: 88.5%;
-}
-		
-.direita p{
-	font-family: arial;
-}	
-.direita i{
-	text-align: Center;
+	
 }
 
 footer{
     background-color: #B4CDCD;
     text-align: center;
-    padding: 10px;
+    padding: 0px;
 	font-family: arial, sans-serif;
+	font-size:0.9em;
 	color: #191970;
 }
 	
-}
 footer p a{
 	font-family: arial, sans-serif;
 	color: #191970;
 	text-decoration: none;
 }
 
-#login{
+#perfil {
 	position:absolute;
-	top:50%;
+	top:30%;
+	left:40%;
+	transform: translate(-50%,-50%);
+}
+
+#perfil img {
+	position:absolute;
+	transform: translate(-50%,-50%);
+}
+
+#dados {
+	font-family: arial;
+	color: #191970;
+	text-align: center;
+	background: #B4CDCD;
+	padding: 10px 20px !important;
+	position:absolute;
+	top: 30%;
+	left:60%;
+	transform: translate(-50%,-50%);
+}
+
+#post{
+	font-family: arial;
+	color: #191970;
+	text-align: center;
+	background: #B4CDCD;
+	padding: 10px 20px !important;
+	position:absolute;
+	top: 70%;
 	left:50%;
 	transform: translate(-50%,-50%);
 }
 
-#h1{
-	text-align: center;
-	color:#191970;
-	font-size:60px;
-	font-family:Monospace;
-	
-}
-
-#button {
-    background-color: #191970; /* Blue */
-    color: white;
-    padding: 5px 20px;
-    font-size: 12px;
-	right:50%;
-	left:50%;
-	
-	
+#post i{
+	padding-left: 80px;
+	transform: translate(-50%,-50%);
+	left: 50%;
 }
